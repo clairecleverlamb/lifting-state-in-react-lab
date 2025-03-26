@@ -6,7 +6,7 @@ const IngredientList = ({ingredients, addToBurger}) => {
                     {ingredient.name}
                     <button onClick={() => addToBurger(ingredient)}
                             style={{ backgroundColor: "green", color: "white", padding: "5px", border: "none", cursor: "pointer" }}>
-                                Add</button>
+                                +</button>
                 </li>
             ))}
         </ul>

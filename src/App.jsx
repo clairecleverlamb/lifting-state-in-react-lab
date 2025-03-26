@@ -35,7 +35,7 @@ const App = () => {
   return (
     <main>
       <h1>Burger Stacker</h1>
-      <section style={{ display: 'flex', justifyContent: 'space-around' }}>
+      <section>
         <IngredientList ingredients={availableIngredients} addToBurger={addToBurger}/>  
         <BurgerStack stack={stack} removeFromBurger={removeFromBurger}/>
       </section>

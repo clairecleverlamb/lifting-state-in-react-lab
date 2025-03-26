@@ -8,7 +8,7 @@ const BurgerStack = ({stack, removeFromBurger}) => {
                     {ingredient.name}
                     <button onClick={() => removeFromBurger(index)}
                             style={{ backgroundColor: "red", color: "white", padding: "5px", border: "none", cursor: "pointer" }}>
-                                Remove</button>
+                                x</button>
                 </li>
             ))}
         </ul>
