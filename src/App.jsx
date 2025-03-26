@@ -29,6 +29,7 @@ const App = () => {
   }
 
   const removeFromBurger = (index) => {
+    console.log("Removing ingredient at index:", index);
     setStack(stack.filter((_, i) => i !== index));
   }
 
